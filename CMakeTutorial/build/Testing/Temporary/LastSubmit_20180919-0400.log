@@ -1,0 +1,8 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+Using drop method: http
+	Upload file: D:/git/CMakeTutorial/build/Testing/20180919-0400/Build.xml to SH-zhaoyy01___Win32-MSBuild___20180919-0400-Nightly___XML___Build.xml
+   Error when uploading file: D:/git/CMakeTutorial/build/Testing/20180919-0400/Build.xml
+   Error message was: Bad URL
+   Problems when submitting via HTTP

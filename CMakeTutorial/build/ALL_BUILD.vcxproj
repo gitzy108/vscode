@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B0BC9AE9-0F98-304B-BC3F-42D4CF761749}</ProjectGuid>
+    <ProjectGuid>{C652F138-EC53-3897-84F6-F5869A9D6EF0}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,7 +93,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\git\CMakeTutorial\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\TutorialConfig.h.in;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/git/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;D:\git\CMakeTutorial\src\CMakeLists.txt;D:\git\CMakeTutorial\src\TutorialConfig.h.in;D:\git\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\TutorialConfig.h.in;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/git/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;D:\git\CMakeTutorial\src\CMakeLists.txt;D:\git\CMakeTutorial\src\TutorialConfig.h.in;D:\git\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\TutorialConfig.h.in;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/git/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;D:\git\CMakeTutorial\src\CMakeLists.txt;D:\git\CMakeTutorial\src\TutorialConfig.h.in;D:\git\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,24 +152,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\TutorialConfig.h.in;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/git/CMakeTutorial/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;D:\git\CMakeTutorial\build\CMakeFiles\3.12.2\CMakeSystem.cmake;D:\git\CMakeTutorial\src\CMakeLists.txt;D:\git\CMakeTutorial\src\TutorialConfig.h.in;D:\git\CMakeTutorial\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git\CMakeTutorial\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\ZERO_CHECK.vcxproj">
-      <Project>{960B1EEF-D641-3758-A57A-942ECEE25490}</Project>
+    <ProjectReference Include="D:\git\CMakeTutorial\build\ZERO_CHECK.vcxproj">
+      <Project>{50014AD4-D2AA-3BD6-8041-CC8D39968BAE}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\MathFunctions.vcxproj">
-      <Project>{7CD6C17A-EDB6-3196-B7B6-F6A4B1082AD2}</Project>
+    <ProjectReference Include="D:\git\CMakeTutorial\build\MathFunctions\MathFunctions.vcxproj">
+      <Project>{E2C3EC2C-7CCF-34E4-829A-1BB282B2590B}</Project>
       <Name>MathFunctions</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\Tutorial.vcxproj">
-      <Project>{968744F6-E41B-399C-BFD7-9002CAD22F90}</Project>
+    <ProjectReference Include="D:\git\CMakeTutorial\build\Tutorial.vcxproj">
+      <Project>{9DB618F9-9401-3A1C-95E6-02FED6CBA440}</Project>
       <Name>Tutorial</Name>
     </ProjectReference>
   </ItemGroup>

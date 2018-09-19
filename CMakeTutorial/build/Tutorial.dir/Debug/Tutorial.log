@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/git/CMakeTutorial/src/CMakeLists.txt
+  CMake does not need to re-run because D:/git/CMakeTutorial/build/CMakeFiles/generate.stamp is up-to-date.
+  tutorial.cpp
+  Tutorial.vcxproj -> D:\git\CMakeTutorial\build\Debug\Tutorial.exe

@@ -1,0 +1,30 @@
+﻿  Test project D:/git/CMakeTutorial/build
+      Start 1: TutorialRuns
+  1/5 Test #1: TutorialRuns .....................   Passed    0.05 sec
+      Start 2: TutorialComp25
+  2/5 Test #2: TutorialComp25 ...................   Passed    0.06 sec
+      Start 3: TutorialNegative
+  3/5 Test #3: TutorialNegative .................***Failed  Required regular expression not found.Regex=[-25 is 0
+  ]  0.04 sec
+      Start 4: TutorialSmall
+  4/5 Test #4: TutorialSmall ....................   Passed    0.04 sec
+      Start 5: TutorialUsage
+  5/5 Test #5: TutorialUsage ....................   Passed    0.04 sec
+  
+  80% tests passed, 1 tests failed out of 5
+  
+  Total Test time (real) =   0.23 sec
+  
+  The following tests FAILED:
+  	  3 - TutorialNegative (Failed)
+  Errors while running CTest
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: 命令“setlocal
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: "C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process -C Debug
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :VCEnd”已退出，代码为 8。

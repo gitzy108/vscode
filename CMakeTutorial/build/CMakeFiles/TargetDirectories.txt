@@ -1,4 +1,12 @@
-C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/Tutorial.dir
-C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/MathFunctions/CMakeFiles/MathFunctions.dir
+D:/git/CMakeTutorial/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/git/CMakeTutorial/build/CMakeFiles/Experimental.dir
+D:/git/CMakeTutorial/build/CMakeFiles/Tutorial.dir
+D:/git/CMakeTutorial/build/CMakeFiles/Continuous.dir
+D:/git/CMakeTutorial/build/CMakeFiles/Nightly.dir
+D:/git/CMakeTutorial/build/CMakeFiles/INSTALL.dir
+D:/git/CMakeTutorial/build/CMakeFiles/RUN_TESTS.dir
+D:/git/CMakeTutorial/build/CMakeFiles/ALL_BUILD.dir
+D:/git/CMakeTutorial/build/CMakeFiles/ZERO_CHECK.dir
+D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/MathFunctions.dir
+D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/INSTALL.dir
+D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/RUN_TESTS.dir

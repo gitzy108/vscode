@@ -1,0 +1,92 @@
+Start testing: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+----------------------------------------------------------
+1/5 Testing: TutorialRuns
+1/5 Test: TutorialRuns
+Command: "D:/git/CMakeTutorial/build/Debug/Tutorial.exe" "25"
+Directory: D:/git/CMakeTutorial/build
+"TutorialRuns" start time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+The square root of 25 is 5
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"TutorialRuns" end time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+"TutorialRuns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: TutorialComp25
+2/5 Test: TutorialComp25
+Command: "D:/git/CMakeTutorial/build/Debug/Tutorial.exe" "25"
+Directory: D:/git/CMakeTutorial/build
+"TutorialComp25" start time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+The square root of 25 is 5
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[25 is 5
+]
+"TutorialComp25" end time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+"TutorialComp25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: TutorialNegative
+3/5 Test: TutorialNegative
+Command: "D:/git/CMakeTutorial/build/Debug/Tutorial.exe" "-25"
+Directory: D:/git/CMakeTutorial/build
+"TutorialNegative" start time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+The square root of -25 is -12.375
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[-25 is 0
+]
+"TutorialNegative" end time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+"TutorialNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: TutorialSmall
+4/5 Test: TutorialSmall
+Command: "D:/git/CMakeTutorial/build/Debug/Tutorial.exe" "0.0001"
+Directory: D:/git/CMakeTutorial/build
+"TutorialSmall" start time: Sep 19 15:38 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+The square root of 0.0001 is 0.01
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[0.0001 is 0.01
+]
+"TutorialSmall" end time: Sep 19 15:39 ?D1迆㊣那℅?那㊣??
+"TutorialSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: TutorialUsage
+5/5 Test: TutorialUsage
+Command: "D:/git/CMakeTutorial/build/Debug/Tutorial.exe"
+Directory: D:/git/CMakeTutorial/build
+"TutorialUsage" start time: Sep 19 15:39 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+D:/git/CMakeTutorial/build/Debug/Tutorial.exe Version 1.0
+Usage: D:/git/CMakeTutorial/build/Debug/Tutorial.exe number
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage:.*number
+]
+"TutorialUsage" end time: Sep 19 15:39 ?D1迆㊣那℅?那㊣??
+"TutorialUsage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 19 15:39 ?D1迆㊣那℅?那㊣??

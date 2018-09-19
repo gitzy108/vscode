@@ -1,0 +1,56 @@
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.8.168+ga8fba1ebd7
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/19 15:39:08。
+节点 1 上的项目“D:\git\CMakeTutorial\build\ALL_BUILD.vcxproj”(默认目标)。
+项目“D:\git\CMakeTutorial\build\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\git\CMakeTutorial\build\ZERO_CHECK.vcxproj”(2) (默认目标)。
+InitializeBuildStatus:
+  正在创建“Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+CustomBuild:
+  所有输出均为最新。
+FinalizeBuildStatus:
+  正在删除文件“Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild”。
+  正在对“Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\git\CMakeTutorial\build\ZERO_CHECK.vcxproj”(默认目标)的操作。
+项目“D:\git\CMakeTutorial\build\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\git\CMakeTutorial\build\MathFunctions\MathFunctions.vcxproj”(3) (默认目标)。
+InitializeBuildStatus:
+  正在创建“MathFunctions.dir\Debug\MathFunctions.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+CustomBuild:
+  所有输出均为最新。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  MathFunctions.vcxproj -> D:\git\CMakeTutorial\build\MathFunctions\Debug\MathFunctions.lib
+FinalizeBuildStatus:
+  正在删除文件“MathFunctions.dir\Debug\MathFunctions.tlog\unsuccessfulbuild”。
+  正在对“MathFunctions.dir\Debug\MathFunctions.tlog\MathFunctions.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\git\CMakeTutorial\build\MathFunctions\MathFunctions.vcxproj”(默认目标)的操作。
+项目“D:\git\CMakeTutorial\build\ALL_BUILD.vcxproj”(1)正在节点 1 上生成“D:\git\CMakeTutorial\build\Tutorial.vcxproj”(4) (默认目标)。
+InitializeBuildStatus:
+  正在创建“Tutorial.dir\Debug\Tutorial.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+CustomBuild:
+  所有输出均为最新。
+ClCompile:
+  所有输出均为最新。
+Link:
+  所有输出均为最新。
+  Tutorial.vcxproj -> D:\git\CMakeTutorial\build\Debug\Tutorial.exe
+FinalizeBuildStatus:
+  正在删除文件“Tutorial.dir\Debug\Tutorial.tlog\unsuccessfulbuild”。
+  正在对“Tutorial.dir\Debug\Tutorial.tlog\Tutorial.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\git\CMakeTutorial\build\Tutorial.vcxproj”(默认目标)的操作。
+InitializeBuildStatus:
+  正在创建“Win32\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+CustomBuild:
+  所有输出均为最新。
+FinalizeBuildStatus:
+  正在删除文件“Win32\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild”。
+  正在对“Win32\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\git\CMakeTutorial\build\ALL_BUILD.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.01

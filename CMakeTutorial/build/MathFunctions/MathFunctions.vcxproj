@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7CD6C17A-EDB6-3196-B7B6-F6A4B1082AD2}</ProjectGuid>
+    <ProjectGuid>{E2C3EC2C-7CCF-34E4-829A-1BB282B2590B}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git\CMakeTutorial\build\MathFunctions\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MathFunctions.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MathFunctions</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git\CMakeTutorial\build\MathFunctions\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MathFunctions.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MathFunctions</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git\CMakeTutorial\build\MathFunctions\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MathFunctions.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MathFunctions</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git\CMakeTutorial\build\MathFunctions\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MathFunctions.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MathFunctions</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -92,10 +92,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -125,10 +125,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -158,10 +158,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\git\CMakeTutorial\build;D:\git\CMakeTutorial\src\MathFunctions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -205,10 +205,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,12 +216,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src -BC:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build --check-stamp-file C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/git/CMakeTutorial/src -BD:/git/CMakeTutorial/build --check-stamp-file D:/git/CMakeTutorial/build/MathFunctions/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,17 +255,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/src/MathFunctions/CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/git/CMakeTutorial/src/MathFunctions/CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;D:\git\CMakeTutorial\src\MathFunctions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git\CMakeTutorial\build\MathFunctions\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\src\MathFunctions\MathFunctions.cpp" />
+    <ClCompile Include="D:\git\CMakeTutorial\src\MathFunctions\MathFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\zhaoyangyang.joe\Desktop\CMakeTutorial\build\ZERO_CHECK.vcxproj">
-      <Project>{960B1EEF-D641-3758-A57A-942ECEE25490}</Project>
+    <ProjectReference Include="D:\git\CMakeTutorial\build\ZERO_CHECK.vcxproj">
+      <Project>{50014AD4-D2AA-3BD6-8041-CC8D39968BAE}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>
