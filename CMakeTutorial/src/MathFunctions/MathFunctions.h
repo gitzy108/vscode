@@ -1,0 +1,1 @@
+﻿double mysqrt(double A); 

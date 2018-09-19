@@ -1,0 +1,4 @@
+C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/Tutorial.dir
+C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/zhaoyangyang.joe/Desktop/CMakeTutorial/build/MathFunctions/CMakeFiles/MathFunctions.dir
